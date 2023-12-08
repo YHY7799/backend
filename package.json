@@ -8,6 +8,7 @@
   "description": "the backend and data base of the react notes app",
   "main": "dist/server.js",
   "scripts": {
+    "build": "tsc -p .",
     "start": "node server.ts",
     "lint": "eslint . --ext .ts",
     "test": "echo \"Error: no test specified\" && exit 1"
