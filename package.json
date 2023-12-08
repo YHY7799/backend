@@ -2,12 +2,13 @@
   "name": "backend",
   "version": "0.1.0",
   "engines": {
-  "npm": "9.5.0",
-  "node": "12.22.9"
+    "npm": "9.5.0",
+    "node": "12.22.9"
   },
   "description": "the backend and data base of the react notes app",
   "main": "dist/server.js",
   "scripts": {
+    "build": "node_modules/.bin/tsc -v",
     "start": "node server.ts",
     "build": "tsc -p .",
     "lint": "eslint . --ext .ts",
